@@ -12,6 +12,10 @@
 		E455A3C41E1BDEAD007EB22D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E455A3C21E1BDEAD007EB22D /* AppDelegate.swift */; };
 		E455A3C51E1BDEAD007EB22D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E455A3C31E1BDEAD007EB22D /* ViewController.swift */; };
 		E455A3C81E1BDEF2007EB22D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E455A3C71E1BDEF2007EB22D /* Assets.xcassets */; };
+		E4944B6C1E1C33F10021F5F5 /* LogmaticLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4944B681E1C33F10021F5F5 /* LogmaticLogger.swift */; };
+		E4944B6D1E1C33F10021F5F5 /* LogmaticPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4944B691E1C33F10021F5F5 /* LogmaticPersistence.swift */; };
+		E4944B6E1E1C33F10021F5F5 /* LogmaticUserDefaultsPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4944B6A1E1C33F10021F5F5 /* LogmaticUserDefaultsPersistence.swift */; };
+		E4944B6F1E1C33F10021F5F5 /* Sequence+Logmatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4944B6B1E1C33F10021F5F5 /* Sequence+Logmatic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		E455A3C21E1BDEAD007EB22D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E455A3C31E1BDEAD007EB22D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E455A3C71E1BDEF2007EB22D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4944B681E1C33F10021F5F5 /* LogmaticLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogmaticLogger.swift; sourceTree = "<group>"; };
+		E4944B691E1C33F10021F5F5 /* LogmaticPersistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogmaticPersistence.swift; sourceTree = "<group>"; };
+		E4944B6A1E1C33F10021F5F5 /* LogmaticUserDefaultsPersistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogmaticUserDefaultsPersistence.swift; sourceTree = "<group>"; };
+		E4944B6B1E1C33F10021F5F5 /* Sequence+Logmatic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sequence+Logmatic.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				E455A3C11E1BDEAD007EB22D /* Classes */,
+				E4944B671E1C33F10021F5F5 /* Logmatic */,
 				E455A3C91E1BDF05007EB22D /* User Interface */,
 				E455A3C61E1BDEF2007EB22D /* Resources */,
 				E455A3BB1E1BDE66007EB22D /* Info.plist */,
@@ -86,6 +95,18 @@
 				E455A3B31E1BDE66007EB22D /* Main.storyboard */,
 			);
 			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		E4944B671E1C33F10021F5F5 /* Logmatic */ = {
+			isa = PBXGroup;
+			children = (
+				E4944B681E1C33F10021F5F5 /* LogmaticLogger.swift */,
+				E4944B691E1C33F10021F5F5 /* LogmaticPersistence.swift */,
+				E4944B6A1E1C33F10021F5F5 /* LogmaticUserDefaultsPersistence.swift */,
+				E4944B6B1E1C33F10021F5F5 /* Sequence+Logmatic.swift */,
+			);
+			name = Logmatic;
+			path = ../../Logmatic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +181,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4944B6F1E1C33F10021F5F5 /* Sequence+Logmatic.swift in Sources */,
+				E4944B6E1E1C33F10021F5F5 /* LogmaticUserDefaultsPersistence.swift in Sources */,
+				E4944B6C1E1C33F10021F5F5 /* LogmaticLogger.swift in Sources */,
+				E4944B6D1E1C33F10021F5F5 /* LogmaticPersistence.swift in Sources */,
 				E455A3C41E1BDEAD007EB22D /* AppDelegate.swift in Sources */,
 				E455A3C51E1BDEAD007EB22D /* ViewController.swift in Sources */,
 			);
