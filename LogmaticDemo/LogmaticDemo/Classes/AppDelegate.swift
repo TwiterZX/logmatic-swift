@@ -36,8 +36,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let logmaticLogger = LogmaticLogger.shared
         logmaticLogger.apiKey = kLogmaticApiKey
         logmaticLogger.sendingFrequency = 4;
-        logmaticLogger.setUserAgentTracking(userAgentTracking: self.fakeUserAgent())
-        logmaticLogger.setIPTracking(ipTracking: self.fakeIpTracking())
+        logmaticLogger.set(userAgentTracking: self.fakeUserAgent())
+        logmaticLogger.set(ipTracking: self.fakeIpTracking())
 
         logmaticLogger.startLogger()
         LogmaticLogger.shared.log(dictionary: nil, message: "iOS.INFO: Application did start")

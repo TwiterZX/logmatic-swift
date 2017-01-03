@@ -129,11 +129,11 @@ class LogmaticLogger : NSObject {
         self.session.configuration.httpAdditionalHeaders = headers
     }
     
-    public func setIPTracking(ipTracking: String) {
+    public func set(ipTracking: String) {
         self.addSessionConfiguration(header: kLogmaticIpTrackingHeaderKey, value: ipTracking)
     }
     
-    public func setUserAgentTracking(userAgentTracking: String) {
+    public func set(userAgentTracking: String) {
         self.addSessionConfiguration(header: kLogmaticUserAgentTrackingHeaderKey, value: userAgentTracking)
     }
     
